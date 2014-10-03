@@ -51,4 +51,4 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'wiki.php';
 
 Wiki::instance()->dispatch();
 
-exec("git --work-tree=\"/var/lib/openshift/542e51e95973caf795000d17/php/wiki\" pull");
+exec("cd /var/lib/openshift/542e51e95973caf795000d17/php/wiki; git pull");
