@@ -11,7 +11,7 @@ define('APP_NAME', 'RAPH');
 // Enable editing files through the interface?
 // NOTE: There's currently no authentication built into Wikitten, controlling
 // who does what is your responsibility.
-define('ENABLE_EDITING', true);
+define('ENABLE_EDITING', false);
 
 // Enable JSON page data?
 // define('USE_PAGE_METADATA', true);
