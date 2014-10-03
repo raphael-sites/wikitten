@@ -6,7 +6,7 @@
 define('APP_NAME', 'RAPHAEL PAGES');
 
 // Custom path to your wiki's library:
-define('LIBRARY', '~/wiki');
+define('LIBRARY', '~/php/wiki');
 
 // Enable editing files through the interface?
 // NOTE: There's currently no authentication built into Wikitten, controlling

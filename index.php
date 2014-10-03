@@ -51,4 +51,4 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'wiki.php';
 
 Wiki::instance()->dispatch();
 
-exec("git -C ~/wiki pull");
+exec("git -C ~/php/wiki pull");
