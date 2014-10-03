@@ -3,7 +3,7 @@
 // first rename it to `config.php`.
 
 // Custom name for your wiki:
-define('APP_NAME', 'RAPH');
+define('APP_NAME', 'RAPHAEL PAGES');
 
 // Custom path to your wiki's library:
 // define('LIBRARY', '/path/to/wiki/library');
