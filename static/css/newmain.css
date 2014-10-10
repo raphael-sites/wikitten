@@ -200,3 +200,6 @@ form {
     font-weight: bold;
     color: #333;
 }
+img {
+    max-width: 600px;
+}
