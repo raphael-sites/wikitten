@@ -50,6 +50,8 @@ unset($request_uri, $script_name, $app_dir, $https);
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'wiki.php';
 
 Wiki::instance()->dispatch();
- flush();            // Unless both are called !
- session_write_close(); // Added a line suggested in the comment
-exec("cd /var/lib/openshift/542e51e95973caf795000d17/php/wiki; git pull");
+
+# Raph hack
+flush();            // Unless both are called !
+session_write_close(); // Added a line suggested in the comment
+exec("cd ".LIBRARY."; git pull");
