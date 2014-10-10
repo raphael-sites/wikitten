@@ -33,16 +33,11 @@ form {
 }
 #sidebar {
     padding: 3px;
-    background-color: #C1CFDC;
     text-shadow: 0 1px 0 #FFFFFF;
-    border-radius: 4px;
     margin-bottom: 5px;
 }
 #sidebar .inner {
     padding: 20px;
-    border: 1px solid #BBB;
-    background-color: #EFF2F4;
-    border-radius: 4px;
 }
 #sidebar h2, .breadcrumbs {
     line-height: 20px;
@@ -52,7 +47,6 @@ form {
 }
 #sidebar h2 span {
     border-radius: 4px 4px 0 0;
-    background: #EFF2F4;
     font-size: 15px;
     line-height: 18px;
     padding: 5px 10px;

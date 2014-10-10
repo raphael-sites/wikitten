@@ -14,7 +14,7 @@ function e($dirty) {
             <title><?php echo e($page['title']) ?> - <?php echo e(APP_NAME) ?></title>
         <?php endif ?>
 
-<link rel="stylesheet" href="https://raw.githubusercontent.com/hplgit/doconce/master/bundled/html_styles/style_vagrant/css/twitter_bootstrap.css">
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://raw.githubusercontent.com/hplgit/doconce/master/bundled/html_styles/style_vagrant/css/vagrant.css">
 
 <link rel="stylesheet" href="static/css/prettify.css">
