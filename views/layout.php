@@ -64,8 +64,8 @@ h1, h2, h3, h4, h5, h6 {
    <div class="Module navigation">
    <!-- Navigation at the top of the page -->
     <ul>
-     <li> <a href="http://wikipedia.org" target="_blank">Wikipedia</a></li>
-     <li> <a href="http://wolframalpha.com" target="_blank">WolframAlpha</a></li>
+     <li> <a href="http://dearbot.com" target="_blank">Dearbot</a></li>
+     <li> <a href="http://uaca.com" target="_blank">UACA</a></li>
     </ul>
    </div>
   </div>
