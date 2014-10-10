@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 <div class="container">
  <div class="row Header with-border">
   <div class="span3 Module logo">
-   <h1><a href="/">Raphael_Shu's<span class="subtitle">Page</span></a></h1>
+   <h1><a href="/">Raphael_Shu<span class="subtitle">Pages</span></a></h1>
   </div>
   <div class="span9">
    <div class="Module navigation">
