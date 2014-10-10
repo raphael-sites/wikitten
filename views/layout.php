@@ -64,7 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 <div class="row">
  <div class="span3 Module sidebar">
   <div class="well" style="padding: 8px 0px;">
-   <?php include('tree.php') ?>
+   <div id="sidebar">
+        <div class="inner">
+            <?php include('tree.php') ?>
+        </div>
+    </div>
   </div>
  </div>
 
