@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5, h6 {
 <div class="row">
  <div class="span3 Module sidebar">
   <div class="well" style="padding: 8px 0px;">
-   <h2><span><?php echo e(APP_NAME) ?></span></h2>
    <?php include('tree.php') ?>
   </div>
  </div>
