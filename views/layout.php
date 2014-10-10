@@ -14,12 +14,12 @@ function e($dirty) {
             <title><?php echo e($page['title']) ?> - <?php echo e(APP_NAME) ?></title>
         <?php endif ?>
 
-<link rel="stylesheet" href="static/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/css/bootstrap.min.css">3
 <link rel="stylesheet" href="https://raw.githubusercontent.com/hplgit/doconce/master/bundled/html_styles/style_vagrant/css/vagrant.css">
 
-<link rel="stylesheet" href="static/css/prettify.css">
-<link rel="stylesheet" href="static/css/codemirror.css">
-<link rel="stylesheet" href="static/css/newmain.css">
+<link rel="stylesheet" href="/static/css/prettify.css">
+<link rel="stylesheet" href="/static/css/codemirror.css">
+<link rel="stylesheet" href="/static/css/newmain.css">
 <meta name="description" content="raphael shu <?php echo e($page['description']) ?>">
 <meta name="keywords" content="raphael shu <?php echo e(join(',', $page['tags'])) ?>">
 
@@ -27,9 +27,9 @@ function e($dirty) {
     <meta name="author" content="<?php echo e($page['author']) ?>">
 <?php endif; ?>
 
-<script src="static/js/jquery.min.js"></script>
-<script src="static/js/prettify.js"></script>
-<script src="static/js/codemirror.min.js"></script>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/prettify.js"></script>
+<script src="/static/js/codemirror.min.js"></script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 <style type="text/css">
