@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
    </div>
   </div>
  </div>
-</div>
+
 
 
 
@@ -73,13 +73,14 @@ h1, h2, h3, h4, h5, h6 {
 <?php echo $content; ?>
 
  </div>
-
-
 </div>
+
 <div class="row Footer">
     <div class="span12">
     Raphael Shu &copy; 2014
     </div>
+</div>
+
 </div>
 </body>
 </html>
