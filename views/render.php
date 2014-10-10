@@ -11,7 +11,7 @@
     <?php $path = array(); ?>
     <ul class="unstyled">
         <li>
-            <a href="<?php echo BASE_URL; ?>"><i class="icon-home icon-white"></i> /wiki</a>
+            <a href="<?php echo BASE_URL; ?>"><i class="icon-home"></i> /wiki</a>
         </li>
         <?php $i = 0; ?>
 
@@ -23,7 +23,7 @@
                     <?php if (++$i == count($parts) && !$is_dir): ?>
                         <i class="icon-file icon-white"></i>
                     <?php else: ?>
-                        <i class="icon-folder-open icon-white"></i>
+                        <i class="icon-folder-open"></i>
                     <?php endif ?>
                     <?php echo $part; ?>
                 </a>
