@@ -35,7 +35,7 @@ define( 'MARKDOWNEXTRA_VERSION',  "1.2.6" ); # Sun 13 Jan 2013
 @define( 'MARKDOWN_FN_BACKLINK_CLASS',     "" );
 
 # Optional class prefix for fenced code block.
-@define( 'MARKDOWN_CODE_CLASS_PREFIX',     "```" );
+@define( 'MARKDOWN_CODE_CLASS_PREFIX',     "" );
 
 # Class attribute for code blocks goes on the `code` tag;
 # setting this to true will put attributes on the `pre` tag instead.
@@ -1965,7 +1965,7 @@ class MarkdownExtra_Parser extends Markdown_Parser {
 				|
 					# Fenced code block marker
 					(?<= ^ | \n )
-					[ ]{0,'.($indent+3).'}~{3,}
+					[ ]{0,'.($indent+3).'}`{3,}
 									[ ]*
 					(?:
 						[.]?[-_:a-zA-Z0-9]+ # standalone class name
@@ -2037,7 +2037,7 @@ class MarkdownExtra_Parser extends Markdown_Parser {
 			#
 			# Check for: Fenced code block marker.
 			#
-			else if (preg_match('{^\n?([ ]{0,'.($indent+3).'})(~+)}', $tag, $capture)) {
+			else if (preg_match('{^\n?([ ]{0,'.($indent+3).'})(`+)}', $tag, $capture)) {
 				# Fenced code block marker: find matching end marker.
 				$fence_indent = strlen($capture[1]); # use captured indent in re
 				$fence_re = $capture[2]; # use captured fence in re
@@ -2635,7 +2635,7 @@ class MarkdownExtra_Parser extends Markdown_Parser {
 				(?:\n|\A)
 				# 1: Opening marker
 				(
-					~{3,} # Marker: three tilde or more.
+					`{3,} # Marker: three tilde or more.
 				)
 				[ ]*
 				(?:
