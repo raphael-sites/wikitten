@@ -19,8 +19,8 @@ function e($dirty) {
 
 <link rel="stylesheet" href="static/css/prettify.css">
 <link rel="stylesheet" href="static/css/codemirror.css">
-<meta name="description" content="<?php echo e($page['description']) ?>">
-<meta name="keywords" content="<?php echo e(join(',', $page['tags'])) ?>">
+<meta name="description" content="raphael shu <?php echo e($page['description']) ?>">
+<meta name="keywords" content="raphael shu <?php echo e(join(',', $page['tags'])) ?>">
 
 <?php if(!empty($page['author'])): ?>
     <meta name="author" content="<?php echo e($page['author']) ?>">
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 <div class="container">
  <div class="row Header with-border">
   <div class="span3 Module logo">
-   <h1><a href="/">DiffEq<span class="subtitle">Project</span></a></h1>
+   <h1><a href="/">Raphael_Shu's<span class="subtitle">Page</span></a></h1>
   </div>
   <div class="span9">
    <div class="Module navigation">
@@ -74,11 +74,12 @@ h1, h2, h3, h4, h5, h6 {
 
  </div>
 
- <div class="row Footer">
-  <div class="span12">
-  Raphael Shu &copy; 2014
-  </div>
- </div>
+
+</div>
+<div class="row Footer">
+    <div class="span12">
+    Raphael Shu &copy; 2014
+    </div>
 </div>
 </body>
 </html>

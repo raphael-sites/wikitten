@@ -1,6 +1,6 @@
 <div class="breadcrumbs">    
     <div class="pull-right">
-        <?php if ($html && isset($source)): ?>
+        <?php if ($html && isset($source) && false): ?>
             <a href="javascript:;" class="btn btn-mini btn-inverse" id="toggle">Toggle source</a>
         <?php endif ?>
         <?php if ($use_pastebin): ?>
