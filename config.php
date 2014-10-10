@@ -3,7 +3,7 @@
 // first rename it to `config.php`.
 
 // Custom name for your wiki:
-define('APP_NAME', 'RAPHAEL PAGES');
+define('APP_NAME', 'Raphael Shu');
 
 // Custom path to your wiki's library:
 define('LIBRARY', '/var/lib/openshift/542e51e95973caf795000d17/php/wiki');
