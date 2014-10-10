@@ -46,12 +46,9 @@ form {
 }
 #sidebar h2, .breadcrumbs {
     line-height: 20px;
-    background: #7B848C;
     margin: -21px -21px 20px -21px;
     padding: 0 20px;
     line-height: 30px;
-    border: 1px solid #666;
-    border-radius: 4px 4px 0 0;
 }
 #sidebar h2 span {
     border-radius: 4px 4px 0 0;
@@ -104,10 +101,8 @@ form {
 .breadcrumbs li {
     float: left;
     line-height: 30px;
-    color: white;
 }
 .breadcrumbs li a {
-    color: white;
     margin-right: 15px;
 }
 .breadcrumbs li a:hover {
