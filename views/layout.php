@@ -19,6 +19,7 @@ function e($dirty) {
 
 <link rel="stylesheet" href="static/css/prettify.css">
 <link rel="stylesheet" href="static/css/codemirror.css">
+<link rel="stylesheet" href="static/css/newmain.css">
 <meta name="description" content="raphael shu <?php echo e($page['description']) ?>">
 <meta name="keywords" content="raphael shu <?php echo e(join(',', $page['tags'])) ?>">
 
