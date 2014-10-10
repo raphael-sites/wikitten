@@ -21,7 +21,7 @@
             <li>
                 <a href="<?php echo htmlspecialchars($url, ENT_QUOTES, 'UTF-8') ?>">
                     <?php if (++$i == count($parts) && !$is_dir): ?>
-                        <i class="icon-file icon-white"></i>
+                        <i class="icon-file"></i>
                     <?php else: ?>
                         <i class="icon-folder-open"></i>
                     <?php endif ?>
@@ -32,7 +32,7 @@
     </ul>
     <div class="clear"></div>
 </div>
-
+<div class="clear"></div>
 <?php if ($html): ?>
     <?php if ($use_pastebin): ?>
     <div id="pastebin-notification" class="alert" style="display:none;"></div>
