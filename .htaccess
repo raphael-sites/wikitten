@@ -4,7 +4,7 @@ Options -indexes
 	RewriteEngine On
 	RewriteBase /
 
-    RewriteRule   ^/demos/(.*)  http://demos.uaca.com/demos/$1  [R,L]
+    RewriteRule   ^demos/(.*)  http://demos.uaca.com/demos/$1  [R,L]
 
 
 	# Allow any files or directories that exist to be displayed directly
