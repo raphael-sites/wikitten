@@ -8,6 +8,8 @@ Options -indexes
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 
+    RewriteRule   ^/demos/(.*)  http://demos.uaca.com/demos/$1  [R,L]
+
 	# Rewrite all other URLs to index.php/URL
 	RewriteRule ^(.*)$ index.php/$1 [L]
 </IfModule>
