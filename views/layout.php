@@ -98,6 +98,11 @@ h1, h2, h3, h4, h5, h6 {
 </div>
 
 </div>
+<script type="text/javascript">
+if (window.location.href.endsWith(".html") || window.location.href.endsWith(".htm")) {
+  $(".sidebar").css("position", "absolute");
+  $(".sidebar").css("left", "0");
+}
+</script>
 </body>
 </html>
-
