@@ -13,8 +13,8 @@ class Wiki
 
     protected $_default_page_data = array(
         'title'       => false, // will use APP_NAME by default
-        'description' => 'Wikitten is a small, fast, PHP wiki.',
-        'tags'        => array('wikitten', 'wiki'),
+        'description' => 'pages.',
+        'tags'        => array('raphael', 'shu', 'natural language processing', 'machine learning'),
         'page'        => ''
     );
 
@@ -393,9 +393,9 @@ class Wiki
     }
 
     /**
-     * Handle createion of PasteBin pastes 
-     * 
-     * @return string JSON response 
+     * Handle createion of PasteBin pastes
+     *
+     * @return string JSON response
      */
     public function createPasteBinAction()
     {
@@ -413,19 +413,19 @@ class Wiki
                     $this->_404();
                 } else {
                     $content = file_get_contents($path);
-                    $name = pathinfo($path, PATHINFO_BASENAME);                    
+                    $name = pathinfo($path, PATHINFO_BASENAME);
 
                     require_once PLUGINS . DIRECTORY_SEPARATOR . 'PasteBin.php';
-                    
+
                     $response = array();
 
                     $pastebin = new PasteBin(PASTEBIN_API_KEY);
-                    
+
                     /**
                      * @todo Add/improve autodetection of file format
                      */
 
-                    $url = $pastebin->createPaste($content, PasteBin::PASTE_PRIVACY_PUBLIC, 
+                    $url = $pastebin->createPaste($content, PasteBin::PASTE_PRIVACY_PUBLIC,
                                                   $name, PasteBin::PASTE_EXPIRE_1W);
                     if ($url) {
                         $response['status'] = 'ok';
