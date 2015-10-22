@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
    <div class="Module navigation">
    <!-- Navigation at the top of the page -->
     <ul>
+    <li></li>
      <li> <a href="https://www.sharelatex.com/project/55aefae8f4732a001c47ec7b/output/output.pdf" target="_blank">Download CV</a></li>
     </ul>
    </div>
