@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
    <!-- Navigation at the top of the page -->
     <ul>
     <li></li>
-     <li> <a href="https://www.sharelatex.com/project/55aefae8f4732a001c47ec7b/output/output.pdf" target="_blank">Download CV</a></li>
+     <li> <a href="http://raphael.uaca.com/files/Personal_CV.pdf" target="_blank">Download CV</a></li>
     </ul>
    </div>
   </div>
