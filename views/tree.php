@@ -30,7 +30,7 @@ function tree($array, $parent, $parts = array(), $step = 0) {
 
 <div id="tree-filter">
     <input type="text" id="tree-filter-query" placeholder="Search file &amp; directory names.">
-    <a id="tree-filter-clear-query" title="Clear current search..."><i class="icon-remove"></i></a>
+    <!--<a id="tree-filter-clear-query" title="Clear current search..."><i class="icon-remove"></i></a>-->
 </div>
 <ul class="unstyled nav nav-list" id="tree-filter-results"></ul>
 

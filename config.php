@@ -6,7 +6,7 @@
 define('APP_NAME', 'Raphael Shu');
 
 // Custom path to your wiki's library:
-define('LIBRARY', '/var/lib/openshift/542e51e95973caf795000d17/php/wiki');
+define('LIBRARY', '/var/www/wiki');
 
 // Enable editing files through the interface?
 // NOTE: There's currently no authentication built into Wikitten, controlling
