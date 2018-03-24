@@ -5,6 +5,7 @@
 1. Get ready
 ```
 apt install apache2 php7.0 libapache2-mod-php7
+a2enmod rewrite
 apache2ctl restart
 ```
 
