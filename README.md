@@ -9,6 +9,16 @@ a2enmod rewrite
 apache2ctl restart
 ```
 
+Change Directory Permission in `/etc/apache2/apache2.conf`
+```
+<Directory /var/www>
+        Options FollowSymLinks
+        AllowOverride All
+        Require all granted
+</Directory>
+```
+
+
 2. Clone wikitten to `/var/www/html`
 
 3. Clone wiki to `/var/www/wiki`
