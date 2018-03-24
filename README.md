@@ -2,7 +2,7 @@
 
 ## Easy installation for appache + php7
 
-1. Put ready
+1. Get ready
 ```
 apt install apache2 php7.0 libapache2-mod-php7
 apache2ctl restart
